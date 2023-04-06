@@ -24,5 +24,20 @@
             <type>war</type>
         </dependency>
     </dependencies>
+  <distributionManagement>
+	
+	    <repository>
+	      <id>nexus</id>
+	      <name>Mithun Technologies Releases Nexus Repository</name>
+	      <url>http://3.110.54.89:8081/repository/Facebook_Release/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Mithun Technologies Snapshot Nexus Repository</name>
+	      <url>http://3.110.54.89:8081/repository/Facebook_Snapshot/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
 </project>
 
